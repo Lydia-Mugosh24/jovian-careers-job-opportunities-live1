@@ -1,0 +1,120 @@
+#navbar {
+    width: 200px;
+    height: 70px;
+}
+
+#banner {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: blue;
+}
+
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+#decision {
+    display: flex;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+#teamwork {
+    height: 250px;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#jobs-table {
+    border: 1px solid grey;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header-rows th {
+    border: 1px solid grey;
+    padding: 4px;
+    background-color: cadetblue;
+}
+
+
+.data-rows td {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(even) {
+    background-color: rgb(14, 204, 204);
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+   padding: 0 8px;
+   padding-bottom: 4px;
+}
+
+#application form label {
+    font-weight: 600;
+}
+
+#application form input, select, textarea {
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 4px;
+    font-size: 1.25rem;
+}
+
+#application form div {
+    margin: 4px;
+}
+
+.form-group textarea {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group input[type="checkbox"]  {
+    width: 14px;
+    height: 14px;
+}
+
+.form-group input[type="submit"] {
+    background-color: rgb(2, 2, 122);
+    color: white;
+    border-radius: 12px;
+    padding: 16px 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: cyan;
+    text-align: center;
+    margin-top: 12px; 
+    padding: 10px;
+}
+
+#footer-links li {
+    display: inline;
+    padding: 12px; 
+    margin: 0 10px;  
+}
+
+
+#copyright {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
